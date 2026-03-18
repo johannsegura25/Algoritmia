@@ -11,7 +11,7 @@ public class Verificador {
         double by2 = Math.max(B.getEsquina1().getY(), B.getEsquina2().getY());
         return (ax1 < bx2 && ax2 > bx1 && ay1 < by2 && ay2 > by1);
     }
-    // Caso juntos (tocan)
+    // Caso juntos
     public static boolean esJunto(Rectangulo A, Rectangulo B) {
         double ax1 = Math.min(A.getEsquina1().getX(), A.getEsquina2().getX());
         double ax2 = Math.max(A.getEsquina1().getX(), A.getEsquina2().getX());
